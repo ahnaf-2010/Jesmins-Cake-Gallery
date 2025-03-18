@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff66b2;
+    padding: 20px;
+}
+
+#logo {
+    height: 80px;
+}
+
+h1 {
+    margin: 10px 0;
+    color: white;
+}
+
+#hero {
+    background: #ff99cc;
+    padding: 50px;
+}
+
+.btn {
+    background: #ff3385;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#catalog .gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+#contact, #order-form {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+}
